@@ -1,7 +1,7 @@
 package com.watchdog.infrastructure.input.controller;
 
 import com.watchdog.domain.RateLimiter;
-import com.watchdog.domain.RateLimiterService;
+import com.watchdog.domain.service.RateLimiterService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
