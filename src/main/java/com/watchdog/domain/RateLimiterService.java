@@ -1,4 +1,4 @@
-package domain;
+package com.watchdog.domain;
 
 import org.springframework.stereotype.Service;
 

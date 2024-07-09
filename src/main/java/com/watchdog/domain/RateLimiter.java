@@ -1,4 +1,4 @@
-package domain;
+package com.watchdog.domain;
 
 import lombok.Builder;
 import lombok.Getter;
