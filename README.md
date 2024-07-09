@@ -8,11 +8,11 @@ Client-side implementation has some drawbacks. For example, someone with bad int
 
 ## Server-side implementation
 
-We can use a rate limiter within an API to create specific rules for that API. If you have dozens of micro services, you need to create its own rules for each micro service. But there are two problems with this format.
+We can use a rate limiter within an API to create specific rules for that API. If you have dozens of microservices, you need to create its own rules for each micro service. But there are two problems with this format.
 
-First, if the rules are repeated, you would be replicating the rules for each micro service.
+First, if the rules are repeated, you would be replicating the rules for each microservice.
 
-The second would be if one micro-service calls another, then you would be checking the rule twice, increasing latency.
+The second would be if one microservice calls another, then you would be checking the rule twice, increasing latency.
 
 The third is that depending on the implementation, replicating data can be more expensive, since you have to either create a control database for each micro service, or use a general database to perform control per service.
 
