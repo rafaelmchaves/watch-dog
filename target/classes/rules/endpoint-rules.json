@@ -1,0 +1,12 @@
+{
+  "endpoints": [
+    {
+      "key": "/api/v1/wishlists",
+      "value": 20
+    },
+    {
+      "key": "/api/v1/transactions",
+      "value": 20
+    }
+  ]
+}

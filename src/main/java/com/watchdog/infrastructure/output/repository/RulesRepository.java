@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.watchdog.domain.DefaultRules;
 import com.watchdog.domain.Rules;
 import com.watchdog.domain.ports.RulesPort;
-import org.springframework.asm.TypeReference;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;

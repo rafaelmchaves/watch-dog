@@ -1,5 +1,5 @@
 {
   "rpsPerEndpoint": 5,
-  "rpsPerUser": 3,
+  "rpsPerUser": 20,
   "rpsPerIp": 30
 }
